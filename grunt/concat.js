@@ -19,7 +19,7 @@ module.exports = function (grunt, options) {
 
         'scripts/js/plugins.min.js': [],
 
-        'scripts/css/core.min.css': ['bower_components/bootstrap/css/bootstrap.min.css']
+        'scripts/css/core.min.css': ['bower_components/bootstrap/dist/css/bootstrap.min.css']
       }]
     }
   };

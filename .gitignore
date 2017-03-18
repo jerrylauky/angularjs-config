@@ -1,6 +1,7 @@
 node_modules/
 bower_components/
 scripts/
+dist/
 *.bak
 *.map
 *.DS_Store
