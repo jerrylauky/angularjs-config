@@ -1,10 +1,10 @@
 (function () {
 
-	'use strict';
+    'use strict';
 
 	APP.config.routes = {
-		states: {
-			'home': {
+	    states: {
+		    'home': {
 	            url: '/',
 	            templateUrl: 'index.html'
 	        },
@@ -18,10 +18,11 @@
 	            url: '/logout',
 	            templateUrl: 'app/auth/logout.html'
 	        },
-	        'otherwise': {
+	        
+		    'otherwise': {
 	            url: '*path',
 	            templateUrl: 'app/misc/notfound.html'
 	        }
-		}
+	    }
 	};
 }());
