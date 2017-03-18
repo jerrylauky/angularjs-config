@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-dynamic-config",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jerrylauky/angularjs-dynamic-config",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.x",
+    "angular-bootstrap": "^2.5.0",
+    "bootstrap": "^3.3.7"
+  },
+  "resolutions": {
+    "angular": "~1.5.x"
+  }
+}
