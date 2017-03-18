@@ -1,10 +1,8 @@
 // helper functions
 
 APP.constructUrl = function (protocol, hostname, port) {
-    // var url = (protocol ? protocol + '://' : '') + hostname + (hostname ? (port ? ':' + port : '') : ''),
-    //     isValidUrl = !Utils.isEmptyString(url) && Utils.isValidUrl(url);
     var url = (protocol ? protocol + '://' : '') + hostname + (hostname ? (port ? ':' + port : '') : ''),
-        isValidUrl = true;
+        isValidUrl = !Utils.isEmptyString(url) && Utils.isValidUrl(url);
 
 	return isValidUrl ? url : 'http://localhost';
 };
