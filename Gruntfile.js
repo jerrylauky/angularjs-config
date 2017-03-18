@@ -8,6 +8,7 @@ var data = {
         prod: {
             js: [
                 'scripts/js/core.min.js',
+                'scripts/js/plugins.min.js',
                 'scripts/js/app.min.js'
             ],
             css: [

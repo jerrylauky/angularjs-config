@@ -6,6 +6,7 @@ module.exports = {
         // app files
         'assets/{images,css}/**',
         'scripts/**',
+        'locale/**',
         'index.html',
         'app.js',
 

@@ -10,7 +10,15 @@ module.exports = {
   },
   app: {
     files: [{
-      'scripts/js/app.min.js': ['app.js', 'scripts/js/app.templates.js']
+      'scripts/js/app.min.js': [
+        'config/app.helpers.js',
+        'config/app.config.shared.js',
+        'config/app.config.routes.js',
+        'config/app.config.interceptors.js',
+        'config/app.config.menus.js',
+        'app.js', 
+        'scripts/js/app.templates.js'
+      ]
     }, {
       expand: true,
       cwd: 'components/',
