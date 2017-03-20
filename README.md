@@ -7,6 +7,8 @@ The application config file became too huge to a point that we had hard time to 
 * be able to work with other projects with ease by plugging these files in
 * integrate with Grunt and can easily switch config between different evironments
 
+**Note**: Most changes are made in **./config** directory
+
 ## Installation
 
 **Install repo**:
@@ -32,7 +34,7 @@ jerrylauky$> grunt dev
 ```
 jerrylauky$> grunt prod:run
 ```
-  
-  
-  
+
+
+
 Feel free to leave comments to let me know if there's anything else I can improve on this.
